@@ -7,4 +7,5 @@ function fib(num){
 	}
 	return fib(num - 1) + fib(num - 2);
 }
-console.log(fib(3));
+// replace # with nth position of sequence you are looking for. ex the 3rd position = console.log(3));
+console.log(fib(#));
