@@ -1,4 +1,4 @@
-//Print even numbers between 1 and 100
+console.log("Even Numbers Between 1 and 100");
 for(x = 1 ; x <= 100 ; x += 1){
   if(x % 2 === 0){
     console.log(x); }
@@ -12,7 +12,7 @@ while(x <= 100){
 }
 
 //---------------------------------------------------------------------------------------------------------------------------
-//numbers between 1 and 350, that are divisible by 7 and 12 
+console.log("numbers between 1 and 350, that are divisible by 7 and 12");
 for(x = 1; x <= 350 ; x+=1){
   if(x % 7 === 0 && x % 12 === 0){
     console.log(x) }
