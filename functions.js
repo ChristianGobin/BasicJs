@@ -7,7 +7,9 @@ function factorial(x){
 }
 // replace # with desired number to find its factorial
 console.log(factorial(#));                
+
 //--------------------------------------------------------------
+
 console.log("Even or Odd Funtion");
 function oddEven(y){
   if(y % 2 == 0){
@@ -17,7 +19,9 @@ function oddEven(y){
 }
 //replace # with number to be tested
 oddEven(#);
+
 //--------------------------------------------------------------
+
 console.log("Replace Characters in a String");
 function replacement(str){
                //str.replace(/character to be swap out/g , "character to swap in");
@@ -25,4 +29,4 @@ function replacement(str){
   return newStr;
 }
 console.log(replacement("This-is-a-string");
-//output will replace all "-"'s with "_"           
+//output will replace all "-"'s with "_" 
