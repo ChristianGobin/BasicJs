@@ -6,7 +6,7 @@ function factorial(x){
   return result;
 }
 // replace # with desired number to find its factorial
-console.log(factorial(#));                     
+factorial(#)                
 //--------------------------------------------------------------
 console.log("Even or Odd Funtion");
 function oddEven(y){
@@ -16,4 +16,4 @@ function oddEven(y){
     console.log("Odd"); }
 }
 //replace # with number to be tested
-console.log(oddEven(#));
+oddEven(#)
