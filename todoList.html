@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavascriptWrk.com</title>
+</head>
+<body>
+	<h1>To-do list prototype.</h1>
+	<p>
+		<h4>Instructions</h4>
+		<ul>
+			<li>To List Items of TDL, type "list".</li>
+			<li>To Add Items to TDL, type "add".</li>
+			<li>To Remove an Item from the TDL, type "remove".</li>
+			<li>To Quit App, type "quit".</li>
+		</ul>
+		<h5>Thank You For Using The TDL App!</h5>
+	</p>
+	<script type="text/javascript">
+		//ask for user data
+		todo = [];
+		var input = prompt("What would you like to do today?");
+		while(input != "quit"){
+			if(input === "list"){
+				list();
+			} if(input === "add"){
+				add();
+			} else if(input === "remove"){
+				remove();
+			} var input =prompt("What would you like to do today?");
+		} if(input === "quit"){
+			alert("You Quit the App.");
+		}
+	//clean up logistics. 
+	//make functions. 
+		function list(){
+			todo.forEach(function(todo , i) {
+				alert(i + ": " + todo);
+			});
+		} function remove(){
+			var ind = prompt("What is the index of item to remove?");
+			//use splice 
+			todo.splice(ind,1);
+		} function add(){
+			var add = prompt("What would you like to add?");
+			todo.push(add);
+		}
+	</script>
+</body>
+</html>
