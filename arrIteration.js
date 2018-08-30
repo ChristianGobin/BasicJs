@@ -12,7 +12,7 @@ function max(arr){
 function sumArr(arr){
    var total = 0;
    arr.forEach(function(x){
-   total+=x;
+   	total+=x;
    });
 	return(total);
 }
