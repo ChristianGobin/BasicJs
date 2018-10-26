@@ -1,2 +1,2 @@
-# native-js
-Variety of Native Javascript Exercises
+# Vanilla-js
+Variety of Vanilla Javascript Exercises
