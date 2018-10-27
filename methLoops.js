@@ -3,7 +3,7 @@ var john = {
         this.totals = [];
         this.tips=[];
         for(var i = 0; i<this.billValues.length ; i++){
-            var bill = this.billValues[i];
+            let bill = this.billValues[i];
             if(bill<50){
                 percentage = .2;
             }
