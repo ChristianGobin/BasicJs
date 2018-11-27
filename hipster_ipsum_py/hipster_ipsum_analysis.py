@@ -1,4 +1,5 @@
 file = open('hipster_ipsum.txt')
+
 def wordFreq ():
     glutenFreeMentions = 0
     coffeeMentions = 0
