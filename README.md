@@ -1,2 +1,8 @@
-# JavaScript Journey from Vanilla++. 
-A to-do list web app using DOM manipulation and Jquery and also a variety of Vanilla Js Scripts && Lots of Logic problem sets.
+# JavaScript
+<h4> What I learned </h4>
+<ul>
+  <li>Functional Programming</li>
+  <li>DOM Manipulation</li>
+  <li>JQuery</li>
+  <li>Critical Thinking and Problem Solving</li>
+</ul>
